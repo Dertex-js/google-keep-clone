@@ -1,0 +1,28 @@
+@import "Colors";
+@import "Fonts";
+
+* {
+ font-family: Roboto, sans-serif;
+ font-weight: 500;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+ font-weight: inherit;
+ font-size: inherit;
+ font-family: inherit;
+
+ &:hover {
+  color: inherit;
+ }
+}
+
+span {
+ font-weight: inherit;
+ font-size: inherit;
+ font-family: inherit;
+}

@@ -1,0 +1,37 @@
+@import "src/scss/Normalize";
+
+.searchBox {
+  max-width: 100%;
+  padding: 8px 8px 8px 8px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr 7fr;
+  border-bottom: 1px solid $mild-grey;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+
+    &_img {
+      width: 40px;
+      height: 40px;
+    }
+
+    &_title {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 24px;
+      color: $grey;
+      padding-left: 4px;
+    }
+
+  }
+
+  &__input {
+    max-width: 800px;
+  }
+
+}
